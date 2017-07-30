@@ -7,12 +7,10 @@ $(document).ready(function() {
 			"'></div><div class='columns-content'><span class='columns-title'>" + element.title + "</span><p><span>" + 
 			element.username + "</span><span>#" + element.hashtag + "</span></p></div></div>");
 	});
-});
-
-
 //modal
-$(document).ready(function(){
-    $(".columns-image").click(function(){
+$(".columns-image").click(function(){
         $("#myModal").modal();
     });
+
 });
+
