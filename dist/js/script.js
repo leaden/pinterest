@@ -12636,8 +12636,8 @@ var res = [{"id":1,"title":"Fuke zisukje bu dibas sik.","description":"Jusola mu
 $(document).ready(function() {
 	res.forEach(function(element){
 		$("#elemento").append("<div class='columns'><div class='columns-image'><img src='dist/img/" + element.image_url + 
-			"'></div><div class='columns-content'><span class='columns-title'>" + element.title + "</span><p><span>" + 
-			element.username + "</span><span>#" + element.hashtag + "</span></p></div></div>");
+			"'></div><div class='columns-content'><span class='columns-title'>" + element.title + "</span><span>" + 
+			element.username + "</span><span>#" + element.hashtag + "</span></div></div>");
 	});
 //modal
 $(".columns-image").click(function(){
