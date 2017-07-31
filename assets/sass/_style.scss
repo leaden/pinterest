@@ -53,14 +53,82 @@ body{
         width:100%;
         border-radius: 15px 15px 15px 15px;
         box-shadow:2px 2px 5px #999;
+        cursor:pointer;
       }
     }
 }
 }
 
+//modal
 .modal-content{
-  height:70vh;
-     .modal-header{
-      display:inline-block;
+  height:80vh;
+      .form-group{
+        margin:0;
+        .glyphicon{
+          font-size:20px;
+          padding:10px;
+          color:#b5b5b5;
+          cursor:pointer;
+        }
+        .glyphicon-pushpin{
+          color:#fff;
+          font-size:10px;
+        }
+      }
      }
+
+
+.modal-header{
+      padding: 20px;
+      button{
+       margin-left:270px;
+       color:#fff;
+       background-color:#bd081c;
+      }
+       .form-group{
+        margin:0;
+        .glyphicon{
+          font-size:20px;
+          padding:10px;
+          color:#b5b5b5;
+          cursor:pointer;
+        }
+        .glyphicon-pushpin{
+          color:#fff;
+          font-size:15px;
+        }
+      }
+}
+
+.modal-body{
+        height:240px;
+        width:100%;
+       }
+
+.modal-footer{
+  button{
+       margin-right:50px;
+       color:#fff;
+       background-color:#bd081c;
+      }
+      .form-group{
+        margin:0;
+        .glyphicon{
+          font-size:20px;
+          padding:10px;
+          color:#b5b5b5;
+          cursor:pointer;
+        }
+        .glyphicon-pushpin{
+          color:#fff;
+          font-size:15px;
+        }
+      }
+       }
+
+.leerlo{
+  button{
+    margin-top:10px;
+    background-color:#b5b5b5;
+  }
 }

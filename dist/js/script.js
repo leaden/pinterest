@@ -12644,5 +12644,6 @@ $(".columns-image").click(function(){
         $("#myModal").modal();
     });
 
+
 });
 
